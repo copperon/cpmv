@@ -2,7 +2,7 @@
 
 ![img](nodes.png)
 
-I wrote this little program in C with SDL3 for a project in my Engineering class. To compile it, run the `make.sh` script. The program should automatically start if the compilation doesn't fail.
+I wrote this little program in C with SDL3 for a project in my Engineering class. To compile it, run the `make.sh` script. The program should automatically start if the compilation doesn't fail. Do note that the make script is designed for macOS systems, so you'll need to have clang installed or swap it out for gcc.
 
 The program automatically saves your node configuration to the node\_pos.bin file. I've included my own configuration, but if you want to default to the automatically generated layout (worse), delete or rename it.
 
